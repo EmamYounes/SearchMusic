@@ -1,15 +1,9 @@
 package com.example.searchmusic.pojo
 
-import com.google.gson.annotations.SerializedName
 
-data class ClientTokenReponse(
+data class ClientTokenResponse(
 
-	@field:SerializedName("expiresIn")
-	val expiresIn: String? = null,
-
-	@field:SerializedName("accessToken")
-	val accessToken: String? = null,
-
-	@field:SerializedName("tokenType")
-	val tokenType: String? = null
+    var expiresIn: String? = "",
+    var accessToken: String? = "",
+    var tokenType: String? = ""
 )
